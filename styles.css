@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .landing{
+    height: 350px;
+    min-height: 100vh;
+    background: url(./src/Assets/POP_SIGNUP_.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    position: relative;
+} */
+
+body {
+    font-family: 'Netflix Sans', sans-serif;
+}
+.where{
+     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
