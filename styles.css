@@ -26,3 +26,27 @@ body {
 .where{
      font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
+details{
+    /* border: 1px solid green; */
+    /* padding: 1rem; */
+    /* padding-left: 50px; */
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+summary{
+    
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+summary::after{
+    content:"+";
+    font-size: larger;
+}
+details[open] summary::after{
+    content:"\00D7";
+}
