@@ -36,12 +36,6 @@ details{
 summary{
     
     list-style: none;
-    /* display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-between;
-    position: relative; */
-
 }
 
 summary::after{
@@ -54,5 +48,5 @@ details[open] summary::after{
     content:"\00D7";
 }
 details[open] summary .icon {
-  content: "\00D7"; /* '×' character */
+  content: "\00D7"; 
 }
