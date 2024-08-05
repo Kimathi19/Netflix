@@ -36,17 +36,23 @@ details{
 summary{
     
     list-style: none;
-    display: flex;
+    /* display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
-
+    position: relative; */
 
 }
+
 summary::after{
     content:"+";
-    font-size: larger;
+    font-size: 34px;
+    margin-left: auto; 
+    transition: content 0.3s;
 }
 details[open] summary::after{
     content:"\00D7";
+}
+details[open] summary .icon {
+  content: "\00D7"; /* '×' character */
 }
